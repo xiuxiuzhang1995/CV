@@ -1,0 +1,12 @@
+‘’‘
+enumerate对数组进行枚举
+’‘’
+ ex1: for index,text in enumerate(list)
+       print index,text
+
+       index 为索引，text为内容
+
+
+可创建字典
+key = {i:ch for i,ch in enumerate(list)}
+输出为‘0’: 'a’ '1:'b'
